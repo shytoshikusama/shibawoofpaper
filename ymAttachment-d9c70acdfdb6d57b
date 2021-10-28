@@ -1,0 +1,469 @@
+<!-- A&P v1.14 Page 13 -->
+
+<!-- IMPORTANT: setting URLs for "Check your status" link -->
+<!-- ***IMPORTANT*** make sure that the base URL is set to the right environment -->
+<!--  -->
+
+
+<!-- LIST OF ALL THE APP NAMES THAT SHOULD NOT BE WRAPPED -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <title></title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content="BBEdit 10.5" />
+  
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons" type="text/css" />
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|SF+Pro+Gulf,v1" type="text/css" />
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|SF+Pro+HK,v1" type="text/css" />
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|SF+Pro+TC,v1" type="text/css" />
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|SF+Pro+KR,v1" type="text/css" />
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|SF+Pro+TH,v1" type="text/css" />
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|SF+Pro+JP,v1" type="text/css" />
+  <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|SF+Pro+SC,v1" type="text/css" />
+
+  <style>
+    body#message {
+      font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: normal;
+      color: #333 !important;
+      background-color: #ffffff !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100%/* !important */
+      ;
+      /* was 685px */
+      ;
+    }
+    /*
+        same width as body, because Rover adds this div
+        */
+
+    body
+    /*, .main*/
+
+    {}
+
+    .main {
+      width: 685px;
+    }
+
+    #apple-logo-left-margin {
+      width: 538px !important;
+    }
+
+    #logo-row-box {
+      width: 100% !important;
+      /* text-align:right; */
+      padding-bottom: 20px !important;
+    }
+
+    div[dir="rtl"] #logo-row-box {
+      text-align: left !important;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 36px;
+      padding-bottom: 10px;
+      border: 0 !important;
+      color: 333 !important;
+    }
+
+    b {
+      font-weight: 500 !important;
+    }
+
+    p {
+      margin-top: 0 !important;
+      word-wrap: break-word;
+      color: #333;
+    }
+
+    td.h1-header {
+      padding: 0px 0px 0px !important;
+    }
+
+    td.signature {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+
+    td.no-padding-bottom {
+      padding-bottom: 0 !important;
+    }
+
+    #signature {
+      padding-top: 18px !important;
+      /* was 41px */
+      padding-bottom: 50px !important;
+    }
+
+    em a {
+      color: #333 !important;
+    }
+
+    a {
+      color: #0070c9;
+      text-decoration: none;
+    }
+
+    a:hover, a:focus {
+      text-decoration: underline !important;
+    }
+
+    span.unlink a,
+    em a,
+    b a,
+    td.unlink a {
+      color: #333 !important;
+      cursor: text;
+      pointer-events: none;
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
+
+    #main {
+      margin-top: 40px;
+      padding-right: 15px;
+      padding-left: 15px;
+      padding-bottom: 30px;
+    }
+
+    footer,
+    footer p,
+    footer span.unlink a,
+    footer td.paragraph {
+      font-size: 12px;
+      line-height: 18px;
+      font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      color: #888 !important;
+    }
+
+    .center-text,
+    footer nav,
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .no-margin-bottom {
+      margin-bottom: 0 !important;
+    }
+
+    td.spacer-36 {
+      padding-bottom: 36px;
+    }
+
+    html[dir=rtl] #apple-logo {
+      left: 0;
+      right: 538px;
+    }
+
+    p#copyright {
+      margin-bottom: 0;
+    }
+
+    .display-block {
+      display: block;
+    }
+
+    .nowrap {
+      white-space: nowrap;
+    }
+
+    #apple-logo-margin-bottom {
+      height: 44px !important;
+    }
+
+    #left-align-on-reply {
+      /* moved from body */
+      margin: 0px auto 50px;
+      padding: 0;
+      width: 685px;
+    }
+
+    #apple-logo-cell {
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 44px;
+    }
+
+    #apple-logo-in-cell {
+      height: 28px !important;
+      width: 24px !important;
+    }
+
+    #apple-logo-in-row-box-mobile {
+      display: none;
+      height: 20px !important;
+      width: 17px !important;
+    }
+    /* If the email client is reading the style element: */
+    /* - then we don't need spacer divs */
+
+    div.paragraph-spacer {
+      display: none;
+      height: 0px !important;
+      margin-bottom: 0px !important;
+    }
+    /* - and margin-top already is in effect on #main */
+
+    #apple-logo-margin-top {
+      height: 0px !important;
+    }
+
+    #logo-row-box {
+      padding-top: 0 !important;
+    }
+
+    div[dir="rtl"] #logo-row-box {
+      text-align: left !important;
+    }
+    /* normally max-width: 320px */
+
+    @media ( max-width:320px) {
+      /* body[yahoo] prevents Yahoo! Mail from reading these rules, because it cannot read attribute selectors */
+      body[yahoo]#message {
+        -webkit-text-size-adjust: none;
+      }
+      body[yahoo] #apple-logo-left-margin {
+        width: 275px !important;
+      }
+      body[yahoo] #main {
+        margin-top: 18px;
+        padding-right: 0;
+        padding-left: 0;
+      }
+      body[yahoo] #apple-logo-in-row-box {
+        /* Not using hide and show approach between small and large imgs because Outlook Express 6 shows both imgs on reply */
+        /*
+		display:none !important;
+		height:0px !important;
+		width:0px !important;
+		*/
+        height: 20px !important;
+        width: 17px !important;
+      }
+      body[yahoo] #apple-logo-in-row-box-mobile {
+        /* display:inline-block !important; Not using hide and show approach between small and large imgs because Outlook Express 6 shows both imgs on reply */
+      }
+      body[yahoo] #apple-logo-margin-bottom {
+        height: 6px !important;
+      }
+      body[yahoo] #logo-row-box {
+        padding-bottom: 9px !important;
+      }
+      body[yahoo] p {
+        margin-bottom: 20px;
+      }
+      body[yahoo] td.paragraph {
+        padding: 0 0 20px !important;
+      }
+      body[yahoo] td.no-padding-bottom {
+        padding-bottom: 0 !important;
+      }
+      body[yahoo] p#signature {
+        margin-top: 36px !important;
+        margin-bottom: 28px !important;
+      }
+      body[yahoo] td#signature {
+        padding-top: 18px !important;
+        /* was 36px */
+        padding-bottom: 28px !important;
+      }
+      body[yahoo] td#footer-links {
+        padding-bottom: 12px !important;
+      }
+      body[yahoo] #copyright #apple-address,
+      body[yahoo] #copyright #all-rights-reserved {
+        display: block;
+      }
+      body[yahoo] #left-align-on-reply {
+        /* moved from body  */
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 300px;
+      }
+      body[yahoo] footer {
+        font: 11px/15px 'Helvetica Neue', Helvetica, Geneva, Verdana, Arial, sans-serif;
+      }
+    }
+    /* typography-body */
+
+    .warning-list {
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: normal;
+      font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      color: #333333;
+    }
+
+    .email-header {
+      font-size: 32px;
+      line-height: 36px;
+      padding-bottom: 10px;
+      border: 0 !important;
+    }
+
+    .email-body {
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: normal;
+      font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      color: #333333;
+    }
+
+    .email-signature {
+      margin-top: 1.5em;
+    }
+    /* block-link */
+
+    a {
+      color: #0070c9;
+      cursor: pointer;
+    }
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+    }
+
+    .form-alert.form-alert-warning {
+      border: 0;
+      border-left: 6px solid #fee450;
+      background-color: #fbf8e8!important;
+    }
+
+    .form-alert {
+      border-radius: 4px;
+    }
+
+    .form-alert {
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: normal;
+      font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+      background-color: hsla(0, 0%, 95%, .4);
+      background-clip: padding-box;
+      border: 1px solid #e3e3e3;
+      padding: 15px 15px 7px 15px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .email-header {
+      font-size: 32px;
+      line-height: 36px;
+      font-weight: 500;
+      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      margin-bottom: 0.5em;
+      text-align: center;
+    }
+  </style>
+
+
+</head>
+
+<!-- body[yahoo] is being used to prevent Yahoo! Mail from reading these rules, because it cannot read attribute selectors -->
+
+<body id="message" style="background-color:#fff;" yahoo="fix">
+
+  <div id="left-align-on-reply" dir="ltr">
+
+    <div id="main" style="margin-top: 40px;padding-right:15px;padding-left:15px;padding-bottom:30px;">
+
+                
+      <div id="logo-row-box" style="width:95%;text-align:left ;padding-top:6%;padding-bottom:6%;">
+        <img id="apple-logo-in-row-box" src="https://statici.icloud.com/emailimages/v4/common/apple_logo_web@2x.png" style="display:inline-block;height:24px;width:20px;right:0px;"alt=“Apple”>
+        <!--<img id="apple-logo-in-row-box-mobile" src="https://statici.icloud.com/emailimages/v4/common/apple_logo_web.png" style="display:none;height:0;width:0;right:0px;" height="0" width="0">-->
+        <!--Two logos are appearing on reply in Windows XP Outlook-->
+      </div>
+
+
+      <div class="container">
+
+        <!--All inline styles are necessary for Gmail-->
+
+        <h1 class="email-header" style="font-size:32px;line-height: 36px;font-weight:500;padding-bottom:10px;color:#333;text-align:center;">Chúng tôi đang chuẩn bị dữ liệu để bạn tải về</h1>
+
+        <div class="email-body" style="font-size:17px;line-height:25px;color:#333;font-weight:normal;">
+          <p>Xin chào Lê Phi,</p>
+          <p>
+            Yêu cầu nhận bản sao của dữ liệu liên kết với <span style="white-space: nowrap">ID Apple</span> <b><span style="white-space: nowrap">phile1988@yahoo.com</span></b> đã được thực hiện vào <span style="white-space: nowrap">16:58:13 GMT+7</span> <span style="white-space: nowrap;text-transform: lowercase">Ngày 21 tháng 10 năm 2021</span>. Chúng tôi đang chuẩn bị dữ liệu để bạn tải về.
+          </p>
+          <div class="callout" style="font-size:17px; line-height:25px; font-weight:normal; border-radius: 4px; border: 1px solid #e3e3e3; background-color: #fafafa; margin: 1.47059em auto;padding: 16px;">
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td align="left" valign="top" width="64">
+                  <img src="https://appleid.cdn-apple.com/bin/email-images/archive@2x.png" height="64" width="64" alt="">
+                </td>
+                <td width="12"> </td>
+                <td>
+                  <div>
+                                    3 App Và Dịch Vụ
+                                    </div>
+                  <div style="font-size:14px;line-height:20px;color:#666;">Có thể tải về dưới dạng các tệp tối đa 1 GB</div>
+                  <ul class="downloadable-items-list" style="font-size:14px;line-height:20px;color:#666;padding-left:15px;margin-top:9px;">
+                                                                                                                                                                                                                                                                                                                                                                                                          <li>
+                        Các thông tin tiếp thị
+                      </li>
+                                                                                                                                                                                                                                                                                                                                                                                                          <li>
+                        Dữ liệu khác
+                      </li>
+                                                                                                                                                                                                                                                                                                                                                                                                          <li>
+                        Lịch và Lời Nhắc trên iCloud
+                      </li>
+                                      </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>
+            Quá trình này có thể mất đến bảy ngày để hoàn thành. Để bảo mật dữ liệu, chúng tôi sử dụng khoảng thời gian này để xác minh bạn là người thực hiện yêu cầu và sẽ thông báo cho bạn khi dữ liệu khả dụng. Để kiểm tra tình trạng yêu cầu của mình bất kỳ lúc nào, hãy truy cập <a href="https://privacy.apple.com/account">privacy.apple.com/account</a>.
+          </p>
+          <p>
+            Nếu bạn không phải là người thực hiện yêu cầu này, hãy liên hệ <a href="https://getsupport.apple.com/?caller=del&PRKEYS=PF23"><span style="white-space: nowrap">Hỗ Trợ Apple</span></a> ngay lập tức.
+          </p>
+                    <p>Trân Trọng,</p>
+                    <p class="email-signature"><span style="white-space: nowrap">Hỗ Trợ Apple</span></p>
+        </div>
+      </div>
+    </div>
+    <!--end #main -->
+
+    <footer style="width:100%; background-color: #f2f2f2;">
+      <table id="footer-paragraphs" width="100%" border="0" cellpadding="0" cellspacing="0" style="background:#f2f2f2; padding:20px 15px 20px 15px;">
+
+        <tr>
+          <td id="footer-links" style="padding:0;font-size:12px;line-height:18px;color:#888 !important;">
+
+            <a href="https://appleid.apple.com" style="color:#555;text-decoration:none;" role="link"><span style="white-space: nowrap">ID Apple</span></a> | <a href="https://www.apple.com/support" style="color:#555;text-decoration:none;" role="link">Hỗ Trợ</a> | <a href="https://www.apple.com/legal/privacy"
+            style="color:#555;text-decoration:none;" role="link">Chính Sách Quyền Riêng Tư</a>
+          </td>
+        </tr>
+
+        <tr>
+
+           <td id="copyright-cell" style="padding:0;font-size:12px;line-height:18px;color:#888 !important;">Bản quyền © 2021 <span id="apple-address” class=“unlink">One Apple Park Way, Cupertino, CA 95014, United States</span> <span id="all-rights-reserved" style="white-space:nowrap;">Giữ toàn quyền.</span>
+ </td>
+
+        </tr>
+
+      </table>
+    </footer>
+  </div>
+  <!--end #left-align-on-reply-->
+</body>
+
+
+</html>
